@@ -8,7 +8,10 @@ def main(source="content", dest="dist"):
     config = {
         "source": source,
         "dest": dest,
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
         #"parsers": [ssg.parsers.ResourceParser(),],
         "parsers": [
             ssg.parsers.ResourceParser(),
